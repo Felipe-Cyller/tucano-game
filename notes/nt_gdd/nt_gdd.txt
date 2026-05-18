@@ -1,0 +1,12 @@
+JOGO SOBRE MATO GROSSO
+
+Estilo 'tour' onde tera algumas caixas clicaveis
+na qual cada uma levara a uma atividade comumente cultural 
+do estado.
+
+Arte cartoon
+Publico: jovem e criança
+jogo casual
+
+Caixa 1:
+Contar quantos tucanos passaram na tela

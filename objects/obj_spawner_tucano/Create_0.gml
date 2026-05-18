@@ -1,0 +1,7 @@
+randomize();
+global.numero_de_tucanos = irandom_range(10, 30); // gerar um numero aleatorio de tucano entre 15 e 30
+global.tucanos_criados = 0;
+alarme_rodou = false;
+
+alarm[0] = 0;
+
