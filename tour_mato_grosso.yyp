@@ -52,6 +52,7 @@
   },
   "name":"tour_mato_grosso",
   "resources":[
+    {"id":{"name":"ft_credito","path":"fonts/ft_credito/ft_credito.yy",},},
     {"id":{"name":"ft_padrao","path":"fonts/ft_padrao/ft_padrao.yy",},},
     {"id":{"name":"ft_titulo","path":"fonts/ft_titulo/ft_titulo.yy",},},
     {"id":{"name":"scribble_fallback_font","path":"fonts/scribble_fallback_font/scribble_fallback_font.yy",},},
@@ -207,8 +208,8 @@
     {"id":{"name":"scribble_fallback_bulletpoint","path":"sprites/scribble_fallback_bulletpoint/scribble_fallback_bulletpoint.yy",},},
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},},
     {"id":{"name":"spr_baixo","path":"sprites/spr_baixo/spr_baixo.yy",},},
+    {"id":{"name":"spr_botao","path":"sprites/spr_botao/spr_botao.yy",},},
     {"id":{"name":"spr_caixa_info","path":"sprites/spr_caixa_info/spr_caixa_info.yy",},},
-    {"id":{"name":"spr_caixa","path":"sprites/spr_caixa/spr_caixa.yy",},},
     {"id":{"name":"spr_colisor","path":"sprites/spr_colisor/spr_colisor.yy",},},
     {"id":{"name":"spr_contar","path":"sprites/spr_contar/spr_contar.yy",},},
     {"id":{"name":"spr_cursor","path":"sprites/spr_cursor/spr_cursor.yy",},},
@@ -218,10 +219,10 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"rm_creditos","path":"rooms/rm_creditos/rm_creditos.yy",},},
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"roomId":{"name":"rm_intrucao1","path":"rooms/rm_intrucao1/rm_intrucao1.yy",},},
     {"roomId":{"name":"rm_game1","path":"rooms/rm_game1/rm_game1.yy",},},
-    {"roomId":{"name":"rm_creditos","path":"rooms/rm_creditos/rm_creditos.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

@@ -11,6 +11,5 @@ if((room == rm_game1 && _fim_de_minigame == 0) and !instance_exists(obj_tucano) 
 	bt_descer_contador.image_yscale = -1;
 	
 	hora_de_contar = true;
-	
-	
 }
+

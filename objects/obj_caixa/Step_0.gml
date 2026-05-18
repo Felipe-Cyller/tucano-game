@@ -47,6 +47,7 @@ if (_colisao and _clicou_bte)
 	}
 	if (cod_id == 2)
 	{
+		room_goto(rm_creditos);
 	}
 	if (cod_id == 3)
 	{
@@ -60,6 +61,11 @@ if (_colisao and _clicou_bte)
 	if (cod_id == 5)
 	{
 		room_goto(rm_game1);
+	}
+	
+	if (cod_id	== 6)
+	{
+		room_goto(rm_menu);
 	}
 	//show_message("Meu Código é " + string(cod_id));
 }

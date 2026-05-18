@@ -9,3 +9,6 @@ if(_criar_alarme)
 }
 
 hora_de_contar = false;
+
+//INICIANDO ANIMAÇÕES COM O SCRIBBLE
+
