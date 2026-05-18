@@ -51,6 +51,7 @@ if (_colisao and _clicou_bte)
 	}
 	if (cod_id == 3)
 	{
+		room_goto(rm_sobre);
 	}
 	if (cod_id == 4)
 	{
