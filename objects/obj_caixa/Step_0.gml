@@ -68,6 +68,22 @@ if (_colisao and _clicou_bte)
 	{
 		room_goto(rm_menu);
 	}
+	if (cod_id == 7)
+	{
+		obj_game_controler.chutou_tucano = true;
+		instance_destroy(obj_caixa);
+		instance_destroy(obj_contar);
+		var _condicao_vitoria = global.advinhar_tucano - global.numero_de_tucanos;
+		
+		var _bt_voltar_ao_menu = instance_create_layer((room_width / 2) - 100, (room_height / 2) + 100,"Inst_botoes",obj_caixa);
+		var _bt_jogar_novamente = instance_create_layer((room_width / 2) + 100, (room_height / 2) + 100,"Inst_botoes",obj_caixa);
+	
+		_bt_voltar_ao_menu.text = "MENU";
+		_bt_voltar_ao_menu.cod_id = 6;
+		_bt_jogar_novamente.text = "RECOMEÇAR";
+		_bt_jogar_novamente.cod_id = 5;
+		
+	}
 	//show_message("Meu Código é " + string(cod_id));
 }
 #endregion
