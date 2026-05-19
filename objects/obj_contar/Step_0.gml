@@ -7,7 +7,7 @@ if(_colisao and _clique_esq)
 	{
 		global.advinhar_tucano--;
 	}
-	if (image_yscale == 1 and global.advinhar_tucano < 30)
+	if (image_yscale == 1 and global.advinhar_tucano < 50)
 	{
 		global.advinhar_tucano++;
 	}

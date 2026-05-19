@@ -1,6 +1,6 @@
 if(alarme_rodou == false and (global.tucanos_criados < global.numero_de_tucanos))
 {
-	alarm[0] = 60;
+	alarm[0] = 60 * 0.8;
 	
 	alarme_rodou = true;
 	//show_debug_message("Rodou");
