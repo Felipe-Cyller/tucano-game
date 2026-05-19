@@ -45,14 +45,17 @@ if (_colisao and _clicou_bte)
 		//Minigame do tucano
 		room_goto(rm_intrucao1);
 	}
+	
 	if (cod_id == 2)
 	{
 		room_goto(rm_creditos);
 	}
+	
 	if (cod_id == 3)
 	{
 		room_goto(rm_sobre);
 	}
+	
 	if (cod_id == 4)
 	{
 		game_end();
@@ -68,6 +71,7 @@ if (_colisao and _clicou_bte)
 	{
 		room_goto(rm_menu);
 	}
+	
 	if (cod_id == 7)
 	{
 		obj_game_controler.chutou_tucano = true;
