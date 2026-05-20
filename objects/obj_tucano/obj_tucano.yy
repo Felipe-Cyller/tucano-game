@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_tucano_voando",
-    "path":"sprites/spr_tucano_voando/spr_tucano_voando.yy",
+    "name":"spr_arara_azul",
+    "path":"sprites/spr_arara_azul/spr_arara_azul.yy",
   },
   "spriteMaskId":null,
   "visible":true,
