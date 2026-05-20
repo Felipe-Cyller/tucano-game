@@ -77,7 +77,7 @@ if (_colisao and _clicou_bte)
 		obj_game_controler.chutou_tucano = true;
 		instance_destroy(obj_caixa);
 		instance_destroy(obj_contar);
-		var _condicao_vitoria = global.advinhar_tucano - global.numero_de_tucanos;
+		var _condicao_vitoria = global.advinhar_jabiru - global.numero_de_jabirus;
 		
 		var _bt_voltar_ao_menu = instance_create_layer((room_width / 2) - 100, (room_height / 2) + 100,"Inst_botoes",obj_caixa);
 		var _bt_jogar_novamente = instance_create_layer((room_width / 2) + 100, (room_height / 2) + 100,"Inst_botoes",obj_caixa);

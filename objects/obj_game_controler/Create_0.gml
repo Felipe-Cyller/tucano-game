@@ -20,7 +20,7 @@ chutou_tucano = false;
 
 if (room == rm_game1)
 {
-	global.numero_de_tucanos = 0;
-	global.tucanos_criados = 0;
-	global.advinhar_tucano = 0;
+	global.numero_de_jabirus = 0;
+	global.jabirus_criados = 0;
+	global.advinhar_jabiru = 0;
 }

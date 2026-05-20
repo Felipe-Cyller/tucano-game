@@ -1,5 +1,5 @@
-sem_tucano_cena = global.numero_de_tucanos - global.tucanos_criados;
-fim_de_minigame = ((room == rm_game1 and sem_tucano_cena == 0) and !instance_exists(obj_tucano) and hora_de_contar == false);
+sem_tucano_cena = global.numero_de_jabirus - global.jabirus_criados;
+fim_de_minigame = ((room == rm_game1 and sem_tucano_cena == 0) and !instance_exists(obj_jabiru) and hora_de_contar == false);
 
 // MINIGAME TUCANO
 if (fim_de_minigame == true) // verdadeira

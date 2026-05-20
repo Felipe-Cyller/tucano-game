@@ -7,15 +7,15 @@ if(_colisao and _clique_esq)
 	image_xscale = 0.8;
 	
 	
-	if(image_yscale == -1 and global.advinhar_tucano > 0)
+	if(image_yscale == -1 and global.advinhar_jabiru > 0)
 	{
 		image_yscale = -0.8;
-		global.advinhar_tucano--;
+		global.advinhar_jabiru--;
 	}
-	if (image_yscale == 1 and global.advinhar_tucano < 50)
+	if (image_yscale == 1 and global.advinhar_jabiru < 50)
 	{
 		image_yscale = 0.8;
-		global.advinhar_tucano++;
+		global.advinhar_jabiru++;
 	}
 }
 else
@@ -32,4 +32,4 @@ else
 		image_yscale = -1;
 	}
 }
-show_debug_message(global.advinhar_tucano);
+show_debug_message(global.advinhar_jabiru);

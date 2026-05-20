@@ -8,7 +8,7 @@ if (hora_de_contar == true and chutou_tucano == false)
 	draw_set_valign(fa_middle);
 	draw_set_font(ft_titulo);
 	
-	draw_text_scribble(378, 244, string(global.advinhar_tucano));
+	draw_text_scribble(378, 244, string(global.advinhar_jabiru));
 	
 	draw_set_halign(-1);
 	draw_set_valign(-1);
@@ -22,7 +22,7 @@ if(chutou_tucano == true)
 	draw_set_valign(fa_middle);
 	draw_set_font(ft_titulo);
 	
-	var _condicao_vitoria = global.advinhar_tucano - global.numero_de_tucanos;
+	var _condicao_vitoria = global.advinhar_jabiru - global.numero_de_jabirus;
 	
 	if (_condicao_vitoria != 0)
 	{

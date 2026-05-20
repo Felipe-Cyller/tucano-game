@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_tucano",
+  "%Name":"obj_jabiru",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_tucano",
+  "name":"obj_jabiru",
   "overriddenProperties":[],
   "parent":{
     "name":"Tucano",
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_arara_azul",
-    "path":"sprites/spr_arara_azul/spr_arara_azul.yy",
+    "name":"spr_jabiru_voando",
+    "path":"sprites/spr_jabiru_voando/spr_jabiru_voando.yy",
   },
   "spriteMaskId":null,
   "visible":true,
