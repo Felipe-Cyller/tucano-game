@@ -1,6 +1,6 @@
 var _random_x = irandom(1);
 var _posx = 0;
-var _posy = irandom_range(10, 300);
+var _posy = irandom_range(10, 224);
 
 if (_random_x == 0)
 {
