@@ -14,6 +14,8 @@ hora_de_contar = false;
 
 //INICIANDO AS VARIAVEIS DE CONTROLE DO MINIGAME
 mensagem = "";
+text = "";
+
 sem_tucano_cena = 0;
 fim_de_minigame = 0;
 chutou_tucano = false;

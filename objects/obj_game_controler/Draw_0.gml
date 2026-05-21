@@ -26,13 +26,17 @@ if(chutou_tucano == true)
 	
 	if (_condicao_vitoria != 0)
 	{
-		mensagem = "VOCÊ PERDEU!"
+		var _text_completo = 
+		text = "A resposta era: " + string(global.numero_de_jabirus);
+		draw_set_font(ft_perdeu);
+		mensagem = "[shake][rainbow]VOCÊ PERDEU![/rainbow][/shake]\n" + text;
+		draw_set_font(-1);
 	}
 	else
 	{
 		mensagem = "VOCÊ GANHOU!";
 	}
-	draw_text_scribble(room_width / 2,room_height / 2,mensagem);
+	draw_text_scribble(room_width / 2,room_height / 2, mensagem);
 	
 	draw_set_halign(-1);
 	draw_set_valign(-1);

@@ -56,6 +56,7 @@
   "resources":[
     {"id":{"name":"ft_credito","path":"fonts/ft_credito/ft_credito.yy",},},
     {"id":{"name":"ft_padrao","path":"fonts/ft_padrao/ft_padrao.yy",},},
+    {"id":{"name":"ft_perdeu","path":"fonts/ft_perdeu/ft_perdeu.yy",},},
     {"id":{"name":"ft_titulo","path":"fonts/ft_titulo/ft_titulo.yy",},},
     {"id":{"name":"scribble_fallback_font","path":"fonts/scribble_fallback_font/scribble_fallback_font.yy",},},
     {"id":{"name":"nt_gdd","path":"notes/nt_gdd/nt_gdd.yy",},},
