@@ -1,12 +1,20 @@
 JOGO SOBRE MATO GROSSO
 
-Estilo 'tour' onde tera algumas caixas clicaveis
-na qual cada uma levara a uma atividade comumente cultural 
-do estado.
+Room - Seleção de jogo
+	Jabiru
+	Javali
 
-Arte cartoon
-Publico: jovem e criança
-jogo casual
-
-Caixa 1:
-Contar quantos tucanos passaram na tela
+Primeiro jogo
+	Acertar quantos jabiru apareceram na tela - feito
+		Modo um jogador - feito
+		Modo dois jogadores
+		
+		Complementos
+			Escolher nível de dificuldade
+			Coletar o jabiru lendário
+			
+Segundo jogo
+	Matar o javali antes que ele fuga
+		Modo um jogador
+		Modo coop
+		
