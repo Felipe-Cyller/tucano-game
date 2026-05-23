@@ -54,6 +54,7 @@
   },
   "name":"tour_mato_grosso",
   "resources":[
+    {"id":{"name":"ft_aviso","path":"fonts/ft_aviso/ft_aviso.yy",},},
     {"id":{"name":"ft_credito","path":"fonts/ft_credito/ft_credito.yy",},},
     {"id":{"name":"ft_padrao","path":"fonts/ft_padrao/ft_padrao.yy",},},
     {"id":{"name":"ft_perdeu","path":"fonts/ft_perdeu/ft_perdeu.yy",},},
@@ -228,6 +229,7 @@
     {"id":{"name":"spr_layer6","path":"sprites/spr_layer6/spr_layer6.yy",},},
     {"id":{"name":"spr_layer7","path":"sprites/spr_layer7/spr_layer7.yy",},},
     {"id":{"name":"spr_layer8","path":"sprites/spr_layer8/spr_layer8.yy",},},
+    {"id":{"name":"spr_sombra","path":"sprites/spr_sombra/spr_sombra.yy",},},
     {"id":{"name":"spr_tucano_voando","path":"sprites/spr_tucano_voando/spr_tucano_voando.yy",},},
     {"id":{"name":"spr_tucano","path":"sprites/spr_tucano/spr_tucano.yy",},},
   ],

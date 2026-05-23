@@ -58,7 +58,8 @@ if (_colisao and _clicou_bte)
 	
 	if (cod_id == 4)
 	{
-		game_end();
+		global.confirmar_saida = true;
+		//game_end();
 	}
 	
 	// Butão avançar fase
@@ -88,6 +89,44 @@ if (_colisao and _clicou_bte)
 		_bt_jogar_novamente.cod_id = 5;
 		
 	}
+	if (cod_id == 8)
+	{
+		game_end();
+	}
 	//show_message("Meu Código é " + string(cod_id));
+	if (cod_id == 9)
+	{
+		obj_game_controler.aparecer_mensagem = false;
+		
+		var _apagar_bt_cancelar = obj_caixa.cod_id = 9;
+		var _apagar_bt_sair = obj_caixa.cod_id = 8;
+		
+		sprite_set_speed(spr_background, 24, spritespeed_framespersecond);
+		
+		instance_destroy(_apagar_bt_cancelar);
+		instance_destroy(_apagar_bt_sair);
+		
+		var _x = 512;
+		var _y = 64;
+		
+		bt_jogar = instance_create_layer( 512, 96, "Inst_botoes", obj_caixa);
+		bt_credito = instance_create_layer(512, 96 + _y, "Inst_botoes", obj_caixa);
+		bt_sobre = instance_create_layer(512, 96 + (_y * 2), "Inst_botoes", obj_caixa);
+		bt_sair = instance_create_layer(512, 96 + (_y * 3), "Inst_botoes", obj_caixa);
+		
+		bt_jogar.cod_id = 1;
+		bt_jogar.text = "JOGAR";
+		
+		bt_credito.cod_id = 2;
+		bt_credito.text = "CRÉDITOS";
+		
+		bt_sobre.cod_id = 3;
+		bt_sobre.text = "SOBRE";
+		
+		bt_sair.cod_id = 4;
+		bt_sair.text = "SAIR";
+		bt_sair.image_blend = make_colour_rgb(255, 101, 101);
+		bt_sair.image_alpha = make_colour_hsv(0, 60, 100);
+	}
 }
 #endregion

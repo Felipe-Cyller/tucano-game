@@ -82,6 +82,30 @@ if(_mostrar_texto == true)
 	draw_set_halign(-1);
 	draw_set_valign(-1);
 	
+}
+
+
+if(aparecer_mensagem == true)
+{
+	
+	draw_set_alpha(0.6);
+	draw_set_colour(c_black);
+	
+	draw_rectangle(0,0, room_width, room_height, false);
+	
+	draw_set_alpha(1);
+	draw_set_colour(c_white);
+	
+	draw_set_halign(fa_center);
+	draw_set_valign(fa_middle);
+	
+	_titulo = "[pulse][c_red][ft_aviso]ATENÇÃO[/c_red][/pulse]";
 	
 	
+	var _text = _titulo + "\n\n\n[c_white][ft_padrao]VOCÊ REALMENTE DESEJA SAIR?[c_white]";
+	
+	draw_text_scribble(room_width / 2, (room_height / 2) - 80, _text);
+	
+	draw_set_halign(-1);
+	draw_set_valign(-1);
 }
