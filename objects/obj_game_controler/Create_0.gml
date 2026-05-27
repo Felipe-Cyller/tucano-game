@@ -8,6 +8,11 @@ bt_criar_sombra = noone;
 bt_cancelar = noone;
 bt_sair = noone;
 
+//CONTROLE
+
+subir_contador = keyboard_check(vk_up);
+descer_contador = keyboard_check(vk_down);
+
 sprite_set_speed(spr_background, 24, spritespeed_framespersecond);
 velocidade = sprite_get_speed(spr_background);
 confirmou_saida = false;

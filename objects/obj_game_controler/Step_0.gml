@@ -28,6 +28,8 @@ fim_de_minigame = ((room == rm_game1 and sem_tucano_cena == 0) and !instance_exi
 // MINIGAME TUCANO
 if (fim_de_minigame == true) // verdadeira
 {
+	
+	
 	//Mensagem de debug
     //get_integer_async("Quantos tucanos passaram?", 0);
 	bt_subir_contador = instance_create_layer(428, 224, "Inst_botoes", obj_contar);
@@ -46,3 +48,9 @@ if (fim_de_minigame == true) // verdadeira
 	hora_de_contar = true; //transforam a condição em falsa
 }
 
+if (hora_de_contar == true)
+{
+	//show_message("ESTOU AQUI!");
+	if (keyboard_check_pressed(vk_up) and global.advinhar_jabiru < 50) global.advinhar_jabiru++;
+	if (keyboard_check_pressed(vk_down) and global.advinhar_jabiru > 1) global.advinhar_jabiru--;
+}

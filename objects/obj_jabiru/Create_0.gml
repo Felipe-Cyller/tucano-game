@@ -14,19 +14,28 @@ if (obj_spawner_tucano.jabiru_lendario == true)
 }
 
 
+#region ESCALA E VELOCIDADE
 
+escala = 0;
 
+hspeed = irandom_range(1,3); // Gera uma velocidade aleatoria
+
+// Muda a escala de acordo com a velocidade
+if (hspeed == 3) escala = 0.8; 
+else if (hspeed == 2) escala = 0.6; 
+else escala = 0.5; 
+
+// Atribui o valor da escala para os parametros X e Y
 if(x < room_width)
 {
-	var _velocidade_horizontal = irandom_range(1,3);
-	hspeed = _velocidade_horizontal;
-	image_xscale = -0.5;
-	image_yscale = 0.5;
+	image_xscale = -escala; // Inverte a direção para a direita
 }
 else
-{
-	var _velocidade_horizontal = irandom_range(-1, -3);
-	hspeed = _velocidade_horizontal;
-	image_xscale = 0.5;
-	image_yscale = 0.5;
+{	
+	hspeed = -hspeed; // Inverte o valor da velocidade horizontal
+	image_xscale = escala; // esquerda
 }
+
+image_yscale = escala;
+
+#endregion
