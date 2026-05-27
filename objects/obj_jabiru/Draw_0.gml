@@ -6,3 +6,7 @@ if (_debugar)
 	"\nVel: " + string(hspeed);
 	draw_text(x - 15, y - 60, _debug);
 }
+
+//var _debug_camada = "Minha Camada: " + layer_get_name(layer);
+
+//draw_text(x - 15, y - 60, _debug_camada);
