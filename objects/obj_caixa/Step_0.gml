@@ -12,9 +12,9 @@ var _clicou_bte = mouse_check_button_pressed(mb_left);
 // a colisão for verdadeira
 if(_colisao)
 {
-	show_debug_message("ESTOU DENTRO DO " + string(cod_id));
-	show_debug_message("Teste");
-	show_debug_message("Teste");
+	//show_debug_message("ESTOU DENTRO DO " + string(cod_id));
+	//show_debug_message("Teste");
+	//show_debug_message("Teste");
 	//Mudando a escala e cor
 	image_xscale = 0.97;
 	image_yscale = 0.97;

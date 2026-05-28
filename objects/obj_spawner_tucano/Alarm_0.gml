@@ -25,4 +25,4 @@ else
 	jabiru_lendario = false;
 	var _criar_tucano = instance_create_layer(_posx,_posy, _camada, obj_jabiru);
 }
-show_debug_message("Criados: " + string(global.jabirus_criados));
+//show_debug_message("Criados: " + string(global.jabirus_criados));

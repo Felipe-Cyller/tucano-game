@@ -42,7 +42,8 @@ if (fim_de_minigame == true) // verdadeira
 	bt_confirmar_numero.cod_id = 7;
 	
 	//rotacionar o botão para 'baixo'
-	bt_descer_contador.image_yscale = -1;
+	bt_subir_contador.cod = 0;
+	bt_descer_contador.cod = 1;
 	
 	
 	hora_de_contar = true; //transforam a condição em falsa
