@@ -236,8 +236,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"rm_game1","path":"rooms/rm_game1/rm_game1.yy",},},
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
+    {"roomId":{"name":"rm_game1","path":"rooms/rm_game1/rm_game1.yy",},},
     {"roomId":{"name":"rm_creditos","path":"rooms/rm_creditos/rm_creditos.yy",},},
     {"roomId":{"name":"rm_intrucao1","path":"rooms/rm_intrucao1/rm_intrucao1.yy",},},
     {"roomId":{"name":"rm_sobre","path":"rooms/rm_sobre/rm_sobre.yy",},},

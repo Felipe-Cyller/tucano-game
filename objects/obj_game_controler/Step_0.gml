@@ -42,8 +42,7 @@ if (fim_de_minigame == true) // verdadeira
 	bt_confirmar_numero.cod_id = 7;
 	
 	//rotacionar o botão para 'baixo'
-	bt_subir_contador.cod = 0;
-	bt_descer_contador.cod = 1;
+	bt_descer_contador.cod_id = 1;
 	
 	
 	hora_de_contar = true; //transforam a condição em falsa
@@ -52,6 +51,6 @@ if (fim_de_minigame == true) // verdadeira
 if (hora_de_contar == true)
 {
 	//show_message("ESTOU AQUI!");
-	if (keyboard_check_pressed(vk_up) and global.advinhar_jabiru < 50) global.advinhar_jabiru++;
-	if (keyboard_check_pressed(vk_down) and global.advinhar_jabiru > 1) global.advinhar_jabiru--;
+	if (keyboard_check_released(vk_up) and global.advinhar_jabiru < 50) global.advinhar_jabiru++;
+	if (keyboard_check_released(vk_down) and global.advinhar_jabiru > 0) global.advinhar_jabiru--;
 }
