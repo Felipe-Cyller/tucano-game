@@ -48,9 +48,9 @@ if (fim_de_minigame == true) // verdadeira
 	hora_de_contar = true; //transforam a condição em falsa
 }
 
-if (hora_de_contar == true)
-{
-	//show_message("ESTOU AQUI!");
-	if (keyboard_check_released(vk_up) and global.advinhar_jabiru < 50) global.advinhar_jabiru++;
-	if (keyboard_check_released(vk_down) and global.advinhar_jabiru > 0) global.advinhar_jabiru--;
-}
+//if (hora_de_contar == true)
+//{
+//	//show_message("ESTOU AQUI!");
+//	if (keyboard_check_released(vk_up) and global.advinhar_jabiru < 50) global.advinhar_jabiru++;
+//	if (keyboard_check_released(vk_down) and global.advinhar_jabiru > 0) global.advinhar_jabiru--;
+//}

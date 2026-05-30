@@ -14,7 +14,7 @@ else
 	_posx = 736;
 }
 var _camada = "Inst_jabiru_pequeno";
-if (_jabiru_lendario <= 0)
+if (_jabiru_lendario <= 2)
 {
 	jabiru_lendario = true;
 	var _criar_tucano = instance_create_layer(_posx, _posy, _camada, obj_jabiru);
